@@ -1,61 +1,71 @@
+ 
 
-        <div id="cssmenu">
+<div id="cssmenu">
+    <ul>
+        <li class='active'><a href='index.html'><span>Abertura</span></a></li>
+
+        <li class='has-sub'><a href='#'><span>Modulo I</span></a>
+
             <ul>
-                <li class='active'><a href='index.php'><span>Abertura</span></a></li>
-                <li class='has-sub'><a href='#'><span>Modulo I</span></a>
-                    <ul>
-                        <li class='has-sub'><a href='fotosx.php'><span>Instalação</span></a>
-                            <ul>
-                                <li><a href='fotosx.php'>
-                                        <span id="monange">
-                                            Minisap<img src="ok.png" height="15" width="15" style="margin-left:10px;">
-                                        </span>
-                                    </a>
-                                </li>
-                                <li class='last'><a href='#'><span>Configuração</span></a></li>
-                            </ul>
-                        </li>
-                        <li class='has-sub'><a href='#'><span>Execução</span></a>
-                            <ul>
-                                <li><a href='#'><span>Blasters I</span></a></li>
-                                <li class='last'><a href='#'><span>Blasters II</span></a></li>
-                            </ul>
-                        </li> 
-                    </ul>
-                </li>
-                <li class='has-sub'><a href='#'><span>Modulo II</span></a>
-                    <ul>
-                        <li class='has-sub'><a href='#'><span>Instalação</span></a>
-                            <ul>
-                                <li><a href='#'><span>Minisap</span></a></li>
-                                <li class='last'><a href='#'><span>Configuração</span></a></li>
-                            </ul>
-                        </li>
-                        <li class='has-sub'><a href='#'><span>Execução</span></a>
-                            <ul>
-                                <li><a href='#'><span>Blasters I</span></a></li>
 
-                                <li class='last'><a href='#'><span>Blasters II</span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class='has-sub'><a href='#'><span>Modulo III</span></a>
+                <li class='has-sub'><a href='fotosx.php'><span>Instalação</span></a>
                     <ul>
-                        <li class='has-sub'><a href='#'><span>Instalação</span></a>
-                            <ul>
-                                <li><a href='#'><span>Minisap</span></a></li>
-                                <li class='last'><a href='#'><span>Configuração</span></a></li>
-                            </ul>
+                        <li ><a href='fotosx.php'>
+                                <table><tr><td style="font-size: 15px; color: white;">Minisap</td><td id="creme"><img src="ok.png" height="15" width="15" style="margin-left:10px; margin-top:-10px;"></td></tr></table>
+                            </a>
                         </li>
-                        <li class='has-sub'><a href='#'><span>Execução</span></a>
-                            <ul>
-                                <li><a href='#'><span>Blasters I</span></a></li>
-                                <li class='last'><a href='#'><span>Blasters II</span></a></li>
-                            </ul>
-                        </li>
+
+                        <li class='last'><a href='#'><span>Configuração</span></a></li>
+
                     </ul>
                 </li>
-                <li><a href='#'><span>Sair</span></a></li>
+
+                <li class='has-sub'><a href='#'><span>Execução</span></a>
+                    <ul>
+                        <li><a href='#'><span>Blasters I</span></a></li>
+                        <li class='last'><a href='#'><span>Blasters II</span></a></li>
+                    </ul>
+
+                </li> 
             </ul>
-        </div>
+
+        </li>
+
+        <li class='has-sub'><a href='#'><span>Modulo II</span></a>
+            <ul>
+                <li class='has-sub'><a href='#'><span>Instalação</span></a>
+                    <ul>
+                        <li><a href='#'><span>Minisap</span></a></li>
+                        <li class='last'><a href='#'><span>Configuração</span></a></li>
+                    </ul>
+                </li>
+                <li class='has-sub'><a href='#'><span>Execução</span></a>
+                    <ul>
+                        <li><a href='#'><span>Blasters I</span></a></li>
+
+                        <li class='last'><a href='#'><span>Blasters II</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li class='has-sub'><a href='#'><span>Modulo III</span></a>
+            <ul>
+                <li class='has-sub'><a href='#'><span>Instalação</span></a>
+                    <ul>
+                        <li><a href='#'><span>Minisap</span></a></li>
+                        <li class='last'><a href='#'><span>Configuração</span></a></li>
+                    </ul>
+                </li>
+                <li class='has-sub'><a href='#'><span>Execução</span></a>
+                    <ul>
+                        <li><a href='#'><span>Blasters I</span></a></li>
+                        <li class='last'><a href='#'><span>Blasters II</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li><a href='#'><span>Sair</span></a></li>
+
+    </ul></div>
