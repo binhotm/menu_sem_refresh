@@ -1,9 +1,10 @@
+
 <?php
 require_once 'funcoes.php';
 ?>
 
 
-<h1>Contato
+<h1>Contato</h1>
     <form action="" method="post">
         <label>Nome: <input type="text" name="nome" /></label>
         <label>E-mail: <input type="text" name="email" /></label>

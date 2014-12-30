@@ -1,8 +1,10 @@
 (function($){
-$(document).ready(function(){
 
-$('#cssmenu li.active').addClass('open').children('ul').show();	
+
+$('#cssmenu li.active').addClass('open').children('ul').show();
+
 $('#cssmenu li.has-sub>a').on('click', function(){
+
 		$(this).removeAttr('href');
 		var element = $(this).parent('li');
 		if (element.hasClass('open')) {
@@ -64,5 +66,4 @@ $('#cssmenu li.has-sub>a').on('click', function(){
 	    return l;
 	}
 
-});
 })(jQuery);
